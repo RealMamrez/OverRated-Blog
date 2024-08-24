@@ -32,7 +32,7 @@ const ServiceCard: React.FC = () => {
         {CONFIG.projects.map((project, idx) => (
           <a
             key={idx}
-            href="weather-app.themamrez.ir"
+            href="https://weather-app.themamrez.ir"
             rel="noreferrer"
             target="_blank"
           >
