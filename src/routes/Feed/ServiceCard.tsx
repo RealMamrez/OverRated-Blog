@@ -24,6 +24,23 @@ const ServiceCard: React.FC = () => {
           </a>
         ))}
       </StyledWrapper>
+
+      <StyledTitle>
+        <Emoji>✌️</Emoji> Projects
+      </StyledTitle>
+      <StyledWrapper>
+        {CONFIG.projects.map((project, idx) => (
+          <a
+            key={idx}
+            href="weather-app.themamrez.ir"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiFillCodeSandboxCircle className="icon" />
+            <div className="name">Weather App</div>
+          </a>
+        ))}
+      </StyledWrapper>
     </>
   )
 }
